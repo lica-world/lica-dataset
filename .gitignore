@@ -1,0 +1,10 @@
+lica-data/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+.env

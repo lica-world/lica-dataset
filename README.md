@@ -8,6 +8,8 @@ Each layout captures the full rendering spec of a design — positions, typograp
 <img width="800" height="500" alt="LICA dataset overview" src="https://github.com/user-attachments/assets/edee2b55-9ec9-49ac-bf3c-4bde21214f18" />
 </p>
 
+The dataset is also available on [HuggingFace](https://huggingface.co/datasets/lica-world/lica-dataset).
+
 ## Getting started
 
 1. Download the [`lica-data`](https://storage.googleapis.com/lica-assets/websites/blog/lica-data.zip) folder and unzip it in the repo root:
@@ -239,10 +241,11 @@ for template_id, group in iter_template_groups("lica-data"):
 ## Citation
 
 ```bibtex
-@article{lica2026,
-  title={LICA: A Comprehensive Platform for Graphic Design},
-  year={2026},
-  url={https://arxiv.org/abs/2603.16098}
+@article{Hirsch2026LICA,
+  title   = {LICA: Layered Image Composition Annotations for Graphic Design Research},
+  author  = {Hirsch, Elad and Yadav, Shubham and Garg, Mohit and Mehta, Purvanshi},
+  journal = {arXiv preprint arXiv:2603.16098},
+  year    = {2026}
 }
 ```
 
